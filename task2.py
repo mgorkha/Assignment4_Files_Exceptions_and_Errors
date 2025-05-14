@@ -1,5 +1,3 @@
-import csv
-
 with open("output.txt", 'w') as writing_file:
     line = input("Enter text to write to the file:")
     writing_file.write(line)
